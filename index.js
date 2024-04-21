@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h3>${book.title}</h3>
                     <p>${book.description}</p>
                     <div class="orderNow">
-                        <button>Order Now</button>
+                        <button>Read More</button>
                     </div>
                 </div>
             </div>
