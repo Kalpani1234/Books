@@ -69,13 +69,13 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 6,
       title: "Elevation",
-      description: '"Elevation" is a captivating novel by Stephen King that tells the story of a man who mysteriously begins to lose weight while his body\'s mass remains unchanged.',
+      description: '"Elevation" is a captivating novel by Stephen King that tells the story of a man who mysteriously begins to lose weight while his  mass remains unchanged.',
       imgSrc: "images/book6.png",
     },
     {
       id: 7,
       title: "The Nickel Boys",
-      description: '"The Nickel Boys" is a powerful novel by Colson Whitehead that explores the harrowing experiences of two boys at a brutal reform school in Jim Crow-era Florida.',
+      description: '"The Nickel Boys" is a powerful novel by Colson Whitehead that explores the harrowing experiences of two boys at a brutal reform school in Jim Crow-era.',
       imgSrc: "images/book7.png",
     },
     {
