@@ -1,277 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Book Paradise</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Paradise</title>
-
-    <!-- swiper link  -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <!-- cdn icon link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- custom css file  -->
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-
-    <!-- header section start here  -->
-    <header class="header">
-        <div class="logoContent">
-            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
-            <h1 class="logoName">Book Paradise </h1>
-        </div>
-
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#product">product</a>
-            <a href="#categories">categories</a>
-            <a href="#contact">contact</a>
-        </nav>
-
-        <div class="icon">
-            <i class="fas fa-search" id="search"></i>
-            <i class="fas fa-bars" id="menu-bar"></i>
-        </div>
-
-        <div class="search">
-            <input type="search" placeholder="search...">
-        </div>
-    </header>
-    <!-- header section end here  -->
-
-    <!-- home section start here  -->
-    <section class="home" id="home">
-        <div class="homeContent">
-            <h2>Today a reader, tomorrow a leader. </h2>
-            <p>"Let’s be reasonable and add an eighth day to the week that is devoted exclusively to reading."</p>
-            <div class="home-btn">
-                <a href="#"><button>see more</button></a>
+    <body>
+        <header class="header">
+            <div class="logoContent">
+                <a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+                <h1 class="logoName">Book Paradise</h1>
             </div>
-        </div>
-    </section>
 
-    <!-- home section end here  -->
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#product">product</a>
+                <a href="#categories">categories</a>
+                <a href="#contact">contact</a>
+            </nav>
 
-    <!-- product section start here  -->
-    <section class="product" id="product">
-        <div class="heading">
-            <h2>Our Exclusive Products</h2>
-        </div>
-        <div class="swiper product-row">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book1.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Famous Five</h3>
-                        <p>"The Famous Five" is a series by Enid Blyton that follows the adventures of four children and their dog as they solve mysteries and uncover secrets.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book2.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Madol Duwa</h3>
-                        <p>"Madol Duwa" is a classic Sri Lankan novel by Martin Wickramasinghe that tells the captivating tale of two young brothers' adventures on a remote island.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book3.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Harry Potter</h3>
-                        <p>"Harry Potter" by J.K. Rowling tells the thrilling tale of a young wizard and his friends as they confront evil in the magical world of Hogwarts.
-                        </p>
-                        <div class="orderNow">
-                            <button>OSee More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book4.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Space Odessy</h3>
-                        <p>"2001: A Space Odyssey" is a classic novel by Arthur C. Clarke that delves humanity's journey to Jupiter and the mysterious forces guiding our evolution.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="icon">
+                <i class="fas fa-search" id="search"></i>
+                <i class="fas fa-bars" id="menu-bar"></i>
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="swiper product-row">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book5.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>The fraud</h3>
-                        <p>"The Fraud" is a gripping thriller that delves into the world of deception and intrigue, keeping readers on the edge of their seats until the very end.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book6.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Elevation</h3>
-                        <p>"Elevation" is a captivating novel by Stephen King that tells the story of a man who mysteriously begins to lose weight while his body's mass remains unchanged.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book7.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Nickel Boys</h3>
-                        <p>"The Nickel Boys" is a powerful novel by Colson Whitehead that explores the harrowing experiences of two boys at a brutal reform school in Jim Crow-era Florida.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="images/book8.png" alt="">
-                    </div>
-                    <div class="product-content">
-                        <h3>Summer Stories</h3>
-                        <p>"Summer-Time Stories" by Enid Blyton is a delightful collection of tales that capture the joys and adventures of summer holidays for children.
-                        </p>
-                        <div class="orderNow">
-                            <button>See More</button>
-                        </div>
-                    </div>
-                </div>
 
+            <div class="search">
+                <input type="search" placeholder="search..." />
+                <ul class="search-results"></ul>
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-    </section>
+        </header>
 
-    <!-- product section end here  -->
-
-    <!-- categories section start here  -->
-    <section class="categories" id="categories">
-
-        <div class=" swiper categories-row">
-            <div class="swiper-wrapper">
-                <div class=" swiper-slide box">
-                    <div class="img">
-                        <img src="images/cat-img3.png" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Children's adventure novels</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum voluptatum
-                            corporis accusamus aperiam fugiat tempora blanditiis labore dolor aliquid maxime nobis
-                            laborum sed soluta voluptatibus aspernatur natus, dicta quisquam.</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ab ullam reiciendis sint
-                            eaque at.</p>
-                        <a href="#categories" class="btn">learn more</a>
-                    </div>
-                </div>
-                <div class=" swiper-slide box">
-                    <div class="img">
-                        <img src="images/cat-img2.png" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Fantasy literature novels </h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum voluptatum
-                            corporis accusamus aperiam fugiat tempora blanditiis labore dolor aliquid maxime nobis
-                            laborum sed soluta voluptatibus aspernatur natus, dicta quisquam.</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ab ullam reiciendis sint
-                            eaque at.</p>
-                        <a href="#categories" class="btn">learn more</a>
-                    </div>
-                </div>
-                <div class=" swiper-slide box">
-                    <div class="img">
-                        <img src="images/cat-img1.png" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Science fiction novels </h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum voluptatum
-                            corporis accusamus aperiam fugiat tempora blanditiis labore dolor aliquid maxime nobis
-                            laborum sed soluta voluptatibus aspernatur natus, dicta quisquam.</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam ab ullam reiciendis sint
-                            eaque at.</p>
-                        <a href="#categories" class="btn">learn more</a>
-                    </div>
+        <section class="home" id="home">
+            <div class="homeContent">
+                <h2>Today a reader, tomorrow a leader.</h2>
+                <p>"Let’s be reasonable and add an eighth day to the week that is devoted exclusively to reading."</p>
+                <div class="home-btn">
+                    <a href="#">
+                        <button>see more</button>
+                    </a>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+        </section>
 
+        <section class="product" id="product">
+            <div class="heading">
+                <h2>Our Exclusive Products</h2>
+            </div>
+            <!-- First Swiper for the first four books -->
+            <div class="swiper product-row" id="product-row-1">
+                <div class="swiper-wrapper">
+                    <!-- First four books will be dynamically inserted here -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- Second Swiper for the next four books -->
+            <div class="swiper product-row" id="product-row-2">
+                <div class="swiper-wrapper">
+                    <!-- Next four books will be dynamically inserted here -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
-        </div>
-    </section>
+        <section class="categories" id="categories">
+            <div class="swiper categories-row">
+                <div class="swiper-wrapper">
+                    <!-- Categories content could also be inserted dynamically similar to the books -->
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
-    <!-- categories section ends here  -->
+        <section class="newsletter">
+            <form action="">
+                <h3>subscribe for latest updates</h3>
+                <input type="email" placeholder="enter your email" class="box" />
+                <input type="button" value="subscribe" id="subscribe-button" class="box2" />
+            </form>
+        </section>
 
-    <!-- newsletter section start here  -->
+        <footer class="footer" id="contact">
+            <div class="box-container">
+                <!-- Footer content -->
+            </div>
+            <div class="credit">created by <span>Kalpani @2024</span> | all rights reserved!</div>
+        </footer>
 
-    <section class="newsletter">
-        <form action="">
-            <h3>subscribe for latest update</h3>
-            <input type="email" name="" placeholder="enter your email" id="" class="box">
-            <input type="button" value="subscribe" class="box2">
-        </form>
-    </section>
-    <!-- newsletter section ends here  -->
-
-
-    <!-- footer section start here  -->
-
-    <footer class="footer" id="contact">
-        <div class="box-container">
-        
-
-        </div>
-      
-        <div class="credit">
-            created by <span>Kalpani @2024 </span> |all rights reserved ! 
-        </div>
-    </footer>
-
-    <!-- swiper js link  -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- custom js file  -->
-    <script src="index.js"></script>
-
-
-</body>
-
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
