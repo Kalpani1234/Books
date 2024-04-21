@@ -206,46 +206,46 @@ section{
     font-size: 2rem;
 }
 
-.blogs{
+.categories{
     background: url(images/backGround.png) no-repeat;
     background-size: cover;
     background-position: center center;
 }
-.blogs  .blogs-row .box {
+.categories  .categories-row .box {
     display: flex;
     align-items: center;
     background-color: var(--white);
     flex-wrap: wrap;
 }
-.blogs .blogs-row .box .img{
+.categories .categories-row .box .img{
     flex: 1 1 45rem;
 }
-.blogs .blogs-row .box .img img{
+.categories .categories-row .box .img img{
     width: 100%;
     padding: 5rem;
 }
-.blogs .blogs-row .box .content{
+.categories .categories-row .box .content{
     flex: 1 1 45rem;
     padding: 2rem;
 }
-.blogs .blogs-row .box .content h3{
+.categories .categories-row .box .content h3{
     font-size: 3.5rem;
     color: var(--black);
     text-shadow: var(--box-shadow);
 
 }
-.blogs .blogs-row .box .content p{
+.categories .categories-row .box .content p{
     font-size: 1.6rem;
     color: var(--black);
     padding: 1rem 0;
     line-height: 1.8;
     
 }
-.blogs .blogs-row .box .content a{
+.categories .categories-row .box .content a{
     font-size: 2rem;
     cursor: pointer;
 }
-.blogs .blogs-row .box .content a:hover{
+.categories .categories-row .box .content a:hover{
     color: var(--black);
     text-shadow: var(--box-shadow);
 }
@@ -287,50 +287,6 @@ section{
     color: var(--white);
     background-color: var(--black);
     outline: .1rem solid var(--white);
-}
-
-.review .review-row{
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    
-}
-.review .review-row .box{
-    width: 50%; 
-    margin-bottom: 3rem;
-    padding: 3rem;
-    border-radius: 3rem;
-    background-color: var(--white);
-    box-shadow: var(--box-shadow);
-}
-
-.review .review-row .box .client-review{
-    margin-bottom: 3rem;
-}
-.review .review-row .box .client-review p{
-    text-align: center;
-    font-size: 2.5rem;
-    line-height: 1.5;
-}
-.review .review-row .box .client-info{
-    display: flex;
-    align-items: center;
-}
-.review .review-row .box .client-info .img{
-    padding-right: 3rem;
-}
-.review .review-row .box .client-info .img img{
-    width: 7rem;
-    height: 7rem;
-    clip-path: circle(50% at 50% 50%);
-}
-
-.review .review-row .box .client-info .clientDetailed h3{
-    font-size: 2.5rem;
-
-}
-.review .review-row .box .client-info .clientDetailed p{
-    font-size: 1.5rem;
 }
 
 .footer {
