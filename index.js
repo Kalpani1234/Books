@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!searchResultsContainer) return;
 
     if (books.length > 0) {
-      searchResultsContainer.innerHTML = books.map((book) => <li>${book.title}</li>).join("");
+      searchResultsContainer.innerHTML = books.map((book) => `<li>${book.title}</li>`).join("");
     } else {
       searchResultsContainer.innerHTML = "<li>No books found</li>";
     }
